@@ -33,7 +33,7 @@ Celui-ci a été réalisé avec ReactJS et le Design System VITAMIN.
 
 ## Résultat Lighthouse
 
-![alt text](lighthouse/Capture d’écran 2021-12-03 à 05.41.59.png "Résultat Lighthouse")
+<img src="lighthouse/Capture d’écran 2021-12-03 à 05.41.59.png" alt="Résultat Lighthouse" width="300" />
 
 ## Conclusion
 
