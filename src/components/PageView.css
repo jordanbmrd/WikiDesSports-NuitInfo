@@ -1,0 +1,73 @@
+.container {
+	width: 100%;
+	position: relative;
+}
+.sport-all {
+	margin: 30px 8% 50px 30px;
+}
+.sport-title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.sport-title:hover .blackUnderlineTop {
+	transform: translateX(60px) skew(-30deg);
+	transition-duration: 0.2s;
+}
+.sport-title:hover .blackUnderline {
+	transform: translateX(-60px) skew(-30deg);
+	transition-duration: 0.2s;
+}
+.sport-title h1 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 64px;
+
+	position: relative;
+}
+.blackUnderlineTop {
+	margin: 50px 220px 10px 0;
+}
+.blackUnderline, .blackUnderlineTop {
+	width: 70px;
+	height: 15px;
+	background-color: #000;
+	transform: skew(-30deg);
+	transition-duration: 0.2s;
+}
+.sport-content {
+	margin-top: 30px;
+}
+.sport-content-title {
+	margin: 30px 0 10px 0;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+.sport-imageList {
+	display: flex;
+	flex-wrap: wrap;
+}
+.related-sports {
+	margin-top: 40px;
+}
+.related-sports ul {
+	list-style-type: circle;
+	margin-left: 30px;
+}
+.related-sports ul li {
+	width: fit-content;
+}
+.related-sports ul li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.sport-image {
+	width: 500px;
+}
+.loadingImage {
+	width: 500px;
+	background-color: lightgray;
+	height: 300px;
+}

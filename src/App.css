@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo_decath {
+  width: 200px;
+  transform: rotate(-5deg);
+}
+.app {
+  display: flex;
+  justify-content: space-around;
+}
+header {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition-duration: 0.3s;
+
+  min-height: 100vh;
+}
+.header-title {
+  text-transform: uppercase;
+  font-style: italic;
+
+  font-size: 70px;
+
+  margin: 40px 40px 0 40px;
+
+  width: fit-content;
+  text-align: right;
+  z-index: 1;
+}
+.header-title:hover {
+  cursor: pointer;
+}
+header:hover .underline {
+  height: 30px;
+  transition-duration: 0.3s;
+}
+.underline {
+  transition-duration: 0.3s;
+  height: 20px;
+
+  position: absolute;
+  z-index: 0;
+}
+.buline-1 {
+  width: 160px;
+  top: 70px;
+  left: 40px;
+}
+.buline-2 {
+  width: 100px;
+  top: 150px;
+  left: 40px;
+}
+.buline-3 {
+  width: 120px;
+  top: 230px;
+  left: 40px;
+}
+.signature {
+  position: fixed;
+  bottom: 15px;
+  left: 5%;
+  margin: auto;
+}
+.signature img {
+  margin-bottom: 20px;
+}
+.signature span {
+  color: lightgray;
+  font-style: italic;
+}
+
