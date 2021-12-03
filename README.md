@@ -31,6 +31,10 @@ Celui-ci a été réalisé avec ReactJS et le Design System VITAMIN.
 
 > **Pourquoi on est beaucoup ?** Plus on est de fous, plus on rit 🤪
 
+## Résultat Lighthouse
+
+![alt text](lighthouse/Capture d’écran 2021-12-03 à 05.41.59.png "Résultat Lighthouse")
+
 ## Conclusion
 
 Nous avons tous passé un bon moment lors de la Nuit de l'Info.
