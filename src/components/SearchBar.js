@@ -32,7 +32,18 @@ const SearchBar = props => {
 		            icon="search-line"
 		            placeholder="Recherchez"
 		            value={ props.searchInput }
-		            onChange={ e => props.setSearchInput(e.target.value) }></VtmnTextInput>
+		            onChange={ e => props.setSearchInput(e.target.value) }
+		            onKeyPress={ e => {
+		            	if (e.key === 'Enter') {
+		            		props.setSearchInput('');
+		            		return (props.setSportData(props.data.filter(val => {
+						          if (val['attributes']['name']) {
+						            if (val['attributes']['name'].toLowerCase().includes(props.searchInput.toLowerCase()))
+						              return val;
+						          }
+						        })[0]));
+		            	}
+		            } }></VtmnTextInput>
 		        </div>
 		    </div>
 		    { (props.searchInput.length > 0 && document.getElementsByClassName('vtmn-text-input')[0] === document.activeElement) ? resultList : null }

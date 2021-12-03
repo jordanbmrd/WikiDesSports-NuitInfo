@@ -43,7 +43,10 @@ class App extends Component {
           </h1>
 
           <div className="signature">
-            <img src="decath_logo.png" alt="Décathlon" className="logo_decath" /><br />
+            <a href="https://www.decathlon.fr/" target="_blank">
+              <img src="decath_logo.png" alt="Decathlon" className="logo_decath" />
+            </a>
+            <br />
             <span>ARRANOCTIS NUIT DE L'INFO</span>
           </div>
         </header>
