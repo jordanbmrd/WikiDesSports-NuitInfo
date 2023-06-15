@@ -17,7 +17,7 @@ Celui-ci a été réalisé avec ReactJS et le Design System VITAMIN.
 
 # Notre équipe 🏆
 
-* Jordan (c'est moi qui ai tout codé wsh)
+* Jordan
 * Lucas
 * Arthur
 * Nathan
@@ -29,13 +29,10 @@ Celui-ci a été réalisé avec ReactJS et le Design System VITAMIN.
 * Nina
 * Juliette
 
-> **Pourquoi on est beaucoup ?** Plus on est de fous, plus on rit 🤪
-
 ## Résultat Lighthouse
 
 <img src="lighthouse/Capture d’écran 2021-12-03 à 05.41.59.png" alt="Résultat Lighthouse" width="500" />
 
 ## Conclusion
 
-Nous avons tous passé un bon moment lors de la Nuit de l'Info.
-Musique, code, bouffe, quoi de mieux finalement ?
+Nous avons tous passé un bon moment lors de la Nuit de l'Info. Merci !
